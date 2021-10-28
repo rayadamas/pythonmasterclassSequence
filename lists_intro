@@ -1,0 +1,46 @@
+computer_parts = ["computer",
+                  "monitor",
+                  "keyboard",
+                  "mouse",
+                  "mouse mat"
+                  ]
+
+
+print(computer_parts)
+
+# replacing an item using indexing
+# computer_parts[3] = "trackball"
+# print(computer_parts)
+print(computer_parts[3:])
+
+computer_parts[3:] = "trackball"
+print(computer_parts)
+# When added as a plain string, each character of such is added to our list
+# To correct this, `[]` are needed to make the string a list
+
+computer_parts[3:] = ["trackball"]
+print(computer_parts)
+
+
+
+
+
+
+
+# for part in computer_parts:
+#     print(part)
+#
+#
+# print(80 * "-")
+#
+# #indexing
+# print(computer_parts[2])
+#
+# print(80 * "-")
+#
+# #iteration
+# print(computer_parts[0:3])
+#
+# print(80 * "-")
+#
+# print(computer_parts[-1])
